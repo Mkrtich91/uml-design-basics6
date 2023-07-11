@@ -23,16 +23,38 @@ namespace UmlDesignBasics
 
         public string StringValue { get; private set; }
 
-        public SimpleClass10(int intValue, long longValue, float floatValue, double doubleValue, char charValue, bool booleanValue, object objectValue, string stringValue)
+
+        public SimpleClass10(SimpleClass10Params parameters)
         {
-            this.IntValue = intValue;
-            this.LongValue = longValue;
-            this.FloatValue = floatValue;
-            this.DoubleValue = doubleValue;
-            this.CharValue = charValue;
-            this.BooleanValue = booleanValue;
-            this.ObjectValue = objectValue;
-            this.StringValue = stringValue;
+            this.IntValue = parameters.IntValue;
+            this.LongValue = parameters.LongValue;
+            this.FloatValue = parameters.FloatValue;
+            this.DoubleValue = parameters.DoubleValue;
+            this.CharValue = parameters.CharValue;
+            this.BooleanValue = parameters.BooleanValue;
+            this.ObjectValue = parameters.ObjectValue;
+            this.StringValue = parameters.StringValue;
         }
+    }
+
+#pragma warning disable SA1402 // File may only contain a single type
+    public class SimpleClass10Params
+#pragma warning restore SA1402 // File may only contain a single type
+    {
+        public int IntValue { get; set; }
+
+        public long LongValue { get; set; }
+
+        public float FloatValue { get; set; }
+
+        public double DoubleValue { get; set; }
+
+        public char CharValue { get; set; }
+
+        public bool BooleanValue { get; set; }
+
+        public object ObjectValue { get; set; }
+
+        public string StringValue { get; set; }
     }
 }
