@@ -1,4 +1,4 @@
-#pragma warning disable IDE0044 // Add readonly modifier
+#pragma warning disable IDE0044
 
 // ReSharper disable FieldCanBeMadeReadOnly.Local
 // ReSharper disable InconsistentNaming

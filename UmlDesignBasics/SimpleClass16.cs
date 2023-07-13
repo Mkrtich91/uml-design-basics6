@@ -1,4 +1,4 @@
-#pragma warning disable IDE0032 // Use auto-property
+#pragma warning disable IDE0032
 
 // Methods should not have too many parameters
 // ReSharper disable ConvertToAutoProperty

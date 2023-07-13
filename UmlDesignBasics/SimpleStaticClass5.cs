@@ -1,4 +1,4 @@
-#pragma warning disable S1125 // Boolean literals should not be redundant
+#pragma warning disable S1125
 
 // ReSharper disable FieldCanBeMadeReadOnly.Local
 // ReSharper disable InconsistentNaming

@@ -1,4 +1,3 @@
-// ReSharper disable InconsistentNaming
 namespace UmlDesignBasics
 {
     public class SimpleClass4
