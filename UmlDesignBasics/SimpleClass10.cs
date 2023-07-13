@@ -2,6 +2,8 @@
 // ReSharper disable UnusedAutoPropertyAccessor.Global
 using System.Diagnostics.CodeAnalysis;
 
+#pragma warning disable S107
+
 namespace UmlDesignBasics
 {
     [SuppressMessage("StyleCop.CSharp.OrderingRules", "SA1201:ElementsMustAppearInTheCorrectOrder", Justification = "Reviewed.")]
@@ -36,3 +38,5 @@ namespace UmlDesignBasics
         }
     }
 }
+
+#pragma warning restore S107
